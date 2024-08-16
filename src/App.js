@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          i ma Harsh Gupta and i am a software developer and i am learning react js and i am very excited to learn this technology.
         </p>
         <a
           className="App-link"

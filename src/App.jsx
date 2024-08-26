@@ -17,11 +17,15 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Hello i am Harsh Gupta
+        </p>
+        <br/>
+        <p>
+          And i am Learning Vite + React 
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Currently i am pursing BscIT from Chetana College and i am in 3rd year
       </p>
     </>
   )

@@ -11,13 +11,13 @@ function App() {
       <div>
        
       </div>
-      <h1>Vite + React</h1>
+      <h1>Hello i am Harsh Gupta</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-          Hello i am Harsh Gupta
+          And
         </p>
         <br/>
         <p>

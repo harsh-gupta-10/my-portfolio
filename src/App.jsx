@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -27,7 +25,7 @@ function App() {
       <p className="read-the-docs">
         Currently i am pursing BscIT from Chetana College and i am in 3rd year
       </p>
-      <h1 className="text-3xl font-bold ">
+      <h1 className="text-3xl font-bold  ">
       Hello world!
     </h1>
     </>

@@ -33,7 +33,7 @@ return (
                     </div>
 
                     <div className='grid justify-center'>
-                            <img src="../../public/img/untitled.png" alt="" className="w-full max-w-xs md:max-w-md lg:max-w-lg"/>    
+                            <img src="../../public/img/temp-logo.png" alt="" className="w-full max-w-xs md:max-w-md lg:max-w-lg"/>    
                     </div> 
             </div>
     </div>

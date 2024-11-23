@@ -1,7 +1,7 @@
 import React from 'react'
 import Error503 from './Error503'
 
-function Projects() {
+function Products() {
   return (
     <div>
         <Error503 />
@@ -9,4 +9,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Products

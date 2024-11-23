@@ -1,12 +1,12 @@
 import React from 'react'
 import Error503 from './Error503'
 
-function Projects() {
+function Contact() {
   return (
     <div>
-        <Error503 />
+    <Error503 />
     </div>
   )
 }
 
-export default Projects
+export default Contact

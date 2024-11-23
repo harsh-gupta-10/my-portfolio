@@ -1,30 +1,36 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import './index.css'
-import Home from './components/Home.jsx'
-import Error from './components/Pages/Error.jsx'
-import { createBrowserRouter, createRoutesFromElements, Router } from 'react-router-dom'
-import Layout from './Layout.jsx'
+import "./index.css";
+import Home from "./components/Home.jsx";
+import About from "./components/Pages/About.jsx";
+import Contact from "./components/Pages/Contact.jsx"; // Import Contact component
+import Error404 from "./components/Pages/Error404.jsx";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Home />
-  </StrictMode>,
-)
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements, 
+} from "react-router-dom";
+import Layout from "./Layout.jsx";
+import Error503 from "./components/Pages/Error503.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
-    <Route path='' element={<Home />}/>
-
-    <Route path='*' element={<Error />} />
-  </Route>
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="error" element={<Error503 />} />
+      <Route path="*" element={<Error404 />} />
+    </Route>
   )
-)
+);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </StrictMode>
+);

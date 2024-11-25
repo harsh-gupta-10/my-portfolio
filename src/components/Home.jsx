@@ -1,14 +1,10 @@
-import React,{useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
+import {useState, useEffect} from 'react'
+
 
 
 function Home() {
     const [e, setE] = useState('Coding')
-    const [count, setCount] = useState(0)
 
-    useEffect(() => {
-        document.title = `You clicked ${count} times`
-    }, [count])
 
     useEffect(() => {
         const words = ['Technology', 'Designing', 'Developing', 'IoT']
@@ -28,7 +24,7 @@ return (
                     <div className='text-left ml-10'>
                             <h1 className='text-4xl md:text-5xl lg:text-6xl'>So, I am <mark>Harsh Gupta</mark></h1>
                             <h1 className='text-4xl md:text-5xl lg:text-6xl'>And I Love</h1>
-                            <p className='text-6xl md:text-7xl lg:text-8xl' id='mypassion'>{e}</p>
+                            <p className='text-6xl md:text-7xl lg:text-8xl' >{e}</p>
                            
                     </div>
 

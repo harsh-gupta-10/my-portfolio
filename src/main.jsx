@@ -7,6 +7,7 @@ import About from "./components/Pages/About.jsx";
 import Contact from "./components/Pages/Contact.jsx";
 import Products from "./components/Pages/Products.jsx" // Import Contact component
 import Error404 from "./components/Pages/Error404.jsx";
+import Projects from "./components/Pages/Projects.jsx";
 
 import {
   createBrowserRouter,
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="products" element={<Products />} />
+      <Route path="projects" element={<Projects />} />
       <Route path="error" element={<Error503 />} />
       <Route path="*" element={<Error404 />} />
     </Route>

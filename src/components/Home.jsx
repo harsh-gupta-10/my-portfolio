@@ -19,7 +19,7 @@ function Home() {
 
 
 return (
-    <div className='bg-slate-700 w-screen h-screen min-w-full min-h-full'>
+    <div className='bg-slate-700  min-w-full min-h-full'>
             <div className='w-screen h-screen gap-20 grid grid-cols-1 md:grid-cols-2 justify-center items-center p-4'>
                     <div className='text-left ml-10'>
                             <h1 className='text-4xl md:text-5xl lg:text-6xl'>So, I am <mark>Harsh Gupta</mark></h1>
